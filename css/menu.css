@@ -1,0 +1,28 @@
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 60%;
+    list-style: none; 
+}
+.menu a{
+    /*color: white;*/
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: white;
+    border: 10px white solid;
+    border-radius: 3px;
+    color: black;
+}
